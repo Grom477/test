@@ -4,64 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Registration</title>
 </head>
-<body>
-    <h3>Reigstration</h3>
+<body align="center" bgcolor="teal">
+    <h2>Reigstration Form</h2>
     <form method="post" action="/action_page.php">
-        <label for="fname">First Name</label><br>
-        <input 
+        <table>
+        <label for="fname">First Name</label>
+        <input  
         type="text" 
         id="fname"
         name="fname"
         placeholder="First Name"
         /><br><br>
-        <label  for="lname">Last Name</label><br>
+        <label  for="lname">Last Name</label>
         <input 
         type="text" 
         id="lname"
         name="lname"
         placeholder="Last Name"
         /><br><br>
-        <label for="email">Email</label><br>
+        <label for="email">Email</label>
         <input 
         type="text" 
         id="email"
         name="email"
         placeholder="Email"
         /><br><br>
-        <label for="phone">Phone</label><br>
+        <label for="phone">Phone</label>
         <input 
         type="tel" 
         id="phone"
         name="phone"
         placeholder="Phone"
         /><br><br>
-        <label for="password">Password</label><br>
+        <label for="password">Password</label>
         <input 
         type="password" 
         id="password"
         name="password"
         placeholder="Password"
         /><br><br>
-        <label for="birthday">Birthday</label><br>
+        <label for="birthday">Birthday</label>
         <input 
         type="datetime-local"
         id="birthday"
         name="birthday"
         ><br><br>
-        <b>Choose your gender: </b><br>
+        <b>Choose your gender: </b>
         <input 
         type="radio"
         id="male"
-        name="male"
+        name="gender"
         value="male"
         >
         <label for="male">Male</label>
         <input 
         type="radio"
         id="female"
-        name="female"
+        name="gender"
         value="female"
         >
         <label for="female">Female</label><br><br>
@@ -87,8 +88,14 @@
         type="submit"
         value="Confirm"
         >
+        <input 
+        type="submit"
+        value="Reset"
+        >
+        
         
     </form>
+</table>
 
 </body>
 </html>
