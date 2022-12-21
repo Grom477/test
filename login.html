@@ -7,46 +7,48 @@
     <title>Registration</title>
 </head>
 <body align="center" bgcolor="teal">
-    <h2>Reigstration Form</h2>
-    <form method="post" action="/action_page.php">
-        <table>
-        <label for="fname">First Name</label>
-        <input  
+    
+
+    <h2>Registration Form</h2>
+    <form style="font-weight: bolder;" method="post" action="/action_page.php">
+        
+        <label  for="fname">First Name</label>
+        <input style="margin-left: 30px;"
         type="text" 
         id="fname"
         name="fname"
         placeholder="First Name"
         /><br><br>
         <label  for="lname">Last Name</label>
-        <input 
+        <input style="margin-left: 30px;"
         type="text" 
         id="lname"
         name="lname"
         placeholder="Last Name"
         /><br><br>
-        <label for="email">Email</label>
-        <input 
+        <label style="margin-left: 15px;" for="email">Email</label>
+        <input style="margin-left: 48px;"
         type="text" 
         id="email"
         name="email"
         placeholder="Email"
         /><br><br>
-        <label for="phone">Phone</label>
-        <input 
+        <label style="margin-left: 15px;" for="phone">Phone</label>
+        <input style="margin-left: 48px;"
         type="tel" 
         id="phone"
         name="phone"
         placeholder="Phone"
         /><br><br>
-        <label for="password">Password</label>
-        <input 
+        <label style="margin-left: 5px;" for="password">Password</label>
+        <input style="margin-left: 35px;"
         type="password" 
         id="password"
         name="password"
         placeholder="Password"
         /><br><br>
-        <label for="birthday">Birthday</label>
-        <input 
+        <label style="margin-left: 8px;"for="birthday">Birthday</label>
+        <input style="margin-left: 36px;"
         type="datetime-local"
         id="birthday"
         name="birthday"
@@ -58,18 +60,18 @@
         name="gender"
         value="male"
         >
-        <label for="male">Male</label>
+        <label style="font-weight: normal;" for="male">Male</label>
         <input 
         type="radio"
         id="female"
         name="gender"
         value="female"
         >
-        <label for="female">Female</label><br><br>
+        <label style="font-weight: normal;" for="female">Female</label><br><br>
 
         <textarea name="description" id="description" cols="30" rows="10" placeholder="Please description yourself"></textarea><br><br>
         
-        <label for="passport">Please send your passport file: </label>
+        <label  style="font-weight: normal;" for="passport">Please send your passport file: </label>
         <input 
         type="file"
         id="passport"
@@ -82,20 +84,19 @@
         name="agreement"
         value="agreement"
         >
-        <label for="agreement">Do you accept a concession agreement?</label><br><br>
+        <label style="font-weight: normal;" for="agreement">Do you accept a concession agreement?</label><br><br>
         
         <input 
         type="submit"
         value="Confirm"
         >
-        <input 
+        <input style="margin-left: 20px"
         type="submit"
         value="Reset"
         >
-        
-        
+
     </form>
-</table>
+
 
 </body>
 </html>
