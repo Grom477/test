@@ -22,7 +22,7 @@ ol {
 
 a {
   text-decoration: none;
-  color: #Fff;
+  color: #fff;
 }
 
 #bottom {
@@ -69,6 +69,7 @@ a {
   width: 100%;
   outline: none;
   letter-spacing: 1px;
+  color: #fff;
 }
 #bottom footer .subscribe form input[type=submit] {
   margin-top: 20px;

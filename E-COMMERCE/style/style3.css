@@ -1,0 +1,111 @@
+body,
+html h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #Fff;
+}
+
+#bottom {
+  width: 100%;
+  min-height: 400px;
+}
+#bottom footer .easy {
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+#bottom footer .easy .circle {
+  display: inline-block;
+}
+#bottom footer .easy .circle img {
+  margin-bottom: 4px;
+  width: 60px;
+}
+#bottom footer .easy .direct {
+  margin-left: 20px;
+  display: inline-block;
+  width: 200px;
+}
+#bottom footer .easy .direct h3 {
+  letter-spacing: 1px;
+}
+#bottom footer .info {
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 120px;
+}
+#bottom footer .info ul {
+  width: 200px;
+  display: inline-block;
+  margin-left: 50px;
+}
+#bottom footer .info ul h3 {
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+#bottom footer .info ul li {
+  margin-bottom: 10px;
+}
+#bottom footer .social {
+  display: inline-block;
+  width: 250px;
+}
+#bottom footer .social h3 {
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+#bottom footer .social .images a {
+  margin-bottom: 10px;
+  display: block;
+}
+#bottom footer .social .images a span {
+  margin-left: 5px;
+  color: #000;
+  font-size: smaller;
+}
+#bottom footer .title {
+  margin-top: 100px;
+}
+#bottom footer .title .business {
+  display: inline-block;
+}
+#bottom footer .title .business h1 {
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+#bottom footer .title .business p {
+  margin-top: 20px;
+}
+#bottom footer .title .button {
+  display: inline-block;
+}
+#bottom footer .title .button input {
+  width: 150px;
+  height: 50px;
+  margin-left: 500px;
+  background-color: #23A6f0;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+}/*# sourceMappingURL=style3.css.map */

@@ -1,0 +1,72 @@
+body,
+html h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#bottom {
+  width: 100%;
+  min-height: 300px;
+}
+#bottom footer .social {
+  width: 240px;
+  margin-top: 80px;
+  margin-left: 150px;
+  display: inline-block;
+}
+#bottom footer .social h3 {
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+}
+#bottom footer .social p {
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+#bottom footer .social .images a {
+  margin-left: 10px;
+}
+#bottom footer .info {
+  display: inline-block;
+}
+#bottom footer .info ul {
+  width: 200px;
+  display: inline-block;
+  margin-left: 150px;
+}
+#bottom footer .info ul h3 {
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+#bottom footer .info ul li {
+  margin-bottom: 10px;
+}
+#bottom footer .made {
+  height: 40px;
+}
+#bottom footer .made h4 {
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.5;
+}/*# sourceMappingURL=style8.css.map */

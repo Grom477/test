@@ -1,0 +1,120 @@
+body,
+html h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #Fff;
+}
+
+#bottom {
+    width: 100%;
+    min-height: 400px;
+
+    footer {
+        background-color: #1b1230;
+        color: #fff;
+        .title {
+            height: 200px;
+            .business {
+                display: inline-block;
+                margin-top: 50px;
+                margin-left: 170px;
+                h1 {
+                    letter-spacing: 1px;
+                    text-transform: capitalize;
+                }
+                p {
+                    margin-top: 20px;
+                }
+            }
+            .button {
+                display: inline-block;
+                input {
+                        width: 150px;
+                        height: 50px;
+                        margin-left: 500px;
+                        background-color: #23A6f0;
+                        border: none;
+                        color: #fff;
+                        border-radius: 6px;
+                }
+            }
+        }
+        .info-social {
+            .info {
+                display: inline-block;
+                margin-left: 150px;
+                margin-top: 120px;
+                ul { 
+                    width: 200px;
+                    display: inline-block;
+                    margin-left: 50px;
+                   
+                    h3 {
+                        letter-spacing: 1px;
+                        text-transform: capitalize;
+                        margin-bottom: 15px;
+                    }
+                    li {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            .social {
+                display: inline-block;
+                width: 250px;
+                
+                h3 {
+                    letter-spacing: 1px;
+                    margin-bottom: 25px;
+                }
+    
+                .images {
+                    a {
+                        margin-bottom: 10px;
+                        display: block;
+                        span {
+                            margin-left: 5px;
+                            font-size: smaller;
+                        }
+                    }
+                }
+            }
+        }
+        .made {
+            
+            h4 {
+                height: 50px;
+                display: inline-block;
+                margin-left: 60px;
+                margin-top: 200px;
+            }
+            .images {
+                display: inline-block;
+                margin-left: 650px;
+                a {  
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

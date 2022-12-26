@@ -1,0 +1,123 @@
+body,
+html h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #Fff;
+}
+
+hr {
+    width: 80%;
+    margin-top: 70px;
+    border: .5px solid #fff;
+}
+#bottom {
+    width: 100%;
+    min-height: 400px;
+    color: #fff;
+    background-color: #1b1230;
+    footer {
+        .title {
+            .business {
+                display: inline-block;
+                margin-top: 50px;
+                margin-left: 170px;
+                h1 {
+                    letter-spacing: 1px;
+                    text-transform: capitalize;
+                }
+            }
+            .images {
+                display: inline-block;
+                margin-left: 850px;
+                a {  
+                    margin-left: 20px;
+                }
+            }
+            .button {
+                display: inline-block;
+                input {
+                        width: 150px;
+                        height: 50px;
+                        margin-left: 500px;
+                        background-color: #23A6f0;
+                        border: none;
+                        color: #fff;
+                        border-radius: 6px;
+                }
+            }
+        }
+        .info {
+            display: inline-block;
+            margin-left: 150px;
+            margin-top: 50px;
+            ul { 
+                width: 200px;
+                display: inline-block;
+                margin-left: 10px;
+               
+                h3 {
+                    letter-spacing: 1px;
+                    text-transform: capitalize;
+                    margin-bottom: 15px;
+                }
+                li {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .email {
+            display: inline-block;
+            h3 {
+                margin-bottom: 40px;
+                letter-spacing: 1px;
+            }
+            input[type="email"] {
+                width: 200px;
+                height: 50px;
+                
+
+                border: none;
+                background-color: rgb(241, 234, 234);
+            }
+            input[type="submit"] {
+                width: 100px;
+                height: 50px;
+                border: none;
+                background-color: #5096d7;  
+                color: #fff;
+            }
+            p {
+                font-size: 12px
+            }
+        }
+        .made {
+            
+            h4 {
+                height: 50px;
+                display: inline-block;
+                margin-left: 120px;
+                margin-top: 100px;
+            }
+        }
+    }
+}
