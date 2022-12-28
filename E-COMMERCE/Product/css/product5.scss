@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width:150px;
+    height: 213px;
+    
+}
+h3{
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: .7;
+}
+input{
+    margin-top: 10px;
+}
+span{
+    margin-top:20px;
+   
+}
+.ruslan{
+    opacity: .5;
+    text-decoration: line-through;
+}
+
+
+.green_1{
+    color: green;
+}
+.yuxari{
+    display: flex;
+    margin-left: 115px;
+    text-align: center;
+    p{
+        font-size: 10px;
+        margin-top: 16px;
+    }
+}
+.blue{
+    margin-left: 30px;
+    margin-right: 30px;
+    color: blue;
+}
+.yellow{
+    margin-right: 30px;
+    color: orange;
+}
+.green{
+    color: green;
+}
+.all{
+    width: 60%;
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.photo1{
+  margin-right: 20px;
+  background-color: rgb(253, 249, 249);
+  margin-top: 10px;
+  padding: 20px 20px 10px;
+}

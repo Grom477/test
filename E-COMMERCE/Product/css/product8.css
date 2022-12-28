@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+h3 {
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+
+input {
+  margin-top: 10px;
+}
+
+span {
+  margin-top: 20px;
+}
+
+.ruslan {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.head {
+  text-align: center;
+}
+.head h3 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-transform: none;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.green_1 {
+  color: green;
+}
+
+.all {
+  width: 45%;
+  display: flex;
+  text-align: center;
+  margin-left: 290px;
+  margin-top: 50px;
+}
+
+.photo1 {
+  margin-right: 10px;
+  background-color: rgb(253, 249, 249);
+  margin-top: 10px;
+  padding: 20px 20px 10px;
+}/*# sourceMappingURL=product8.css.map */

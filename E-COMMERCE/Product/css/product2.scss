@@ -1,0 +1,86 @@
+body,
+html h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#product {
+    .info {
+        margin-top: 70px;
+        text-align: center;
+        h2 {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+
+        }
+        p {
+            opacity: 0.8;
+            margin-bottom: 45px;
+        }
+        .info_buttons {
+            margin-right: 12px;
+            input {
+                border-color: rgb(57, 111, 220);
+                border-radius: 25px;
+                color: rgb(57, 111, 220);
+                background-color: #fff;
+                font-size: 15px;
+                height: auto;
+                width: auto;
+                padding: 15px;
+                margin-left: 15px;
+            }
+        }
+    }
+    .cards {
+        width: 1200px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 275px;
+        margin-top: 50px;
+        img {
+            height: 400px;
+            width: 300px;
+            padding: 10px;
+        }
+        h3 {
+
+        }
+        p {
+            
+        }
+        b {
+            opacity: .3;
+        }
+        span {
+            padding-left:10px ;
+            color: rgb(31, 163, 1);
+            font-weight: bold;
+        }
+
+    }
+    
+}
+

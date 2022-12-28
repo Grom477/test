@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 180px;
+  height: 207px;
+}
+
+h3 {
+  font-size: 15px;
+  margin-top: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  text-transform: capitalize;
+}
+
+input {
+  margin-top: 10px;
+}
+
+span {
+  margin-top: 20px;
+}
+
+.anar {
+  width: 100%;
+  margin-left: 29px;
+}
+
+.ruslan {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.green_1 {
+  color: green;
+}
+
+.all {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 42px;
+  margin-top: 55px;
+}
+
+.photo1 {
+  margin-right: 10px;
+  background-color: rgb(253, 249, 249);
+  padding: 20px 20px 10px;
+}
+
+.photo2 {
+  margin-right: 10px;
+}
+.photo2 img {
+  width: 500px;
+  height: 402px;
+}/*# sourceMappingURL=product7.css.map */
