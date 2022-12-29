@@ -1,0 +1,114 @@
+body,
+html h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    width: 80%;
+
+    .post:hover {
+        box-shadow: 0px 2px 6px 2px;
+        transition: all linear .3s;
+    }
+    .post{
+        width: auto;
+        height: auto;
+        padding-bottom: 60px;
+        margin-top: 60px;
+        margin-left: 50px;
+
+        &__image {
+            :hover {
+                filter: grayscale(80%);
+                transition: all linear .3s;
+            }
+            img {
+                width: 450px;
+                height: 250px;
+            }
+        }
+        &__select {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            :first-child {
+                color: blue;
+            }
+            span {
+                margin-left: 30px;
+            }
+        }    
+        &__news {
+            margin-left: 30px;
+
+            h3 {
+                margin-top: 10px;
+                font-size: 25px;
+            }
+            p {
+                width: 400px;
+                margin-top: 15px;
+
+            }
+        }
+        &__info {
+            margin-left: 30px;
+            margin-top: 30px;
+
+            &-date {
+                #alarm {
+                    color: rgb(42, 140, 253);
+                    font-size: 17px;
+                    margin-right: 5px;
+                }
+                ::before {
+                    
+                }
+            }
+            &-comments {
+                margin-left: 20px;
+                #graph {
+                    color: green;
+                    font-size: 20px;
+                    margin-right: 5px;
+                }
+            }
+            &-button {
+                color: #000;
+                font-weight: 900;
+                font-size: 18px;
+                opacity: .7;
+            }
+            i {
+                color: rgb(42, 140, 253);
+                font-size: 25px;
+                margin-left: 10px;
+                opacity: .7;
+
+            }
+        }
+    }   
+}

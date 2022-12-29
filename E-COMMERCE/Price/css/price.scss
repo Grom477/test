@@ -1,0 +1,131 @@
+body,
+html h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.pricing {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 60px;
+
+  h1 {
+    letter-spacing: 1px;
+  }
+}
+#image {
+  display: flex;
+  margin-top: 90px;
+  justify-content: center;
+
+  .image_free:hover {
+    background-color: rgb(50, 44, 44);
+    color: #fff;
+    transition: all linear .35s;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  .image_free {
+    width: auto;
+    height: auto;
+    text-align: center;
+    border: 2px solid;
+    border-color: rgb(42, 140, 253);
+    padding: 50px;
+    margin-left: 1px;
+
+    h3 {
+      letter-spacing: 1px;
+      font-weight: 900;
+      font-size: 25px;
+    }
+
+    p {
+      width: 180px;
+      margin-left: 50px;
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
+
+    #price {
+      color: rgb(42, 140, 253);
+      font-size: 44px;
+      font-weight: 900;
+    }
+
+    sup {
+      color: rgb(42, 140, 253);
+      font-size: 22px;
+      font-weight: 900;
+      margin-left: 5px;
+    }
+
+    sub {
+      color: rgb(42, 140, 253);
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    ul {
+      text-align: start;
+      margin-top: 40px;
+
+      li {
+        margin-bottom: 30px;
+
+        i {
+          margin-right: 10px;
+          font-size: 32px;
+          color: rgb(36, 194, 36);
+        }
+        #other {
+          color: lightslategray;
+        }
+      }
+
+      b {}
+    }
+  }
+
+  button:hover {
+    background-color: red;
+    cursor: grab;
+  }
+
+  button {
+    width: 200px;
+    margin-top: 20px;
+    font-size: 20px;
+    height: 50px;
+    background-color: rgb(42, 140, 253);
+    border-radius: 8px;
+    border: none;
+
+    .button {
+      font-size: 15px;
+    }
+  }
+}
