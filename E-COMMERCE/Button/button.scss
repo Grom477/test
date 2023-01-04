@@ -1,0 +1,1038 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  #button {
+    border-style: dashed;
+    border-color: blue;
+    padding: 20px;
+    width: 820px;
+    #icon_1 {
+      position: absolute;
+      left: 3px;
+      top: -1px;
+      margin-left: 5px;
+    }
+    #icon_2 {
+      position: absolute;
+      right: 5px;
+      top: -1px;
+      margin-left: 5px;
+    }
+    #icon_3 {
+      position: absolute;
+      right: 5px;
+      top: -1px;
+      margin-left: 5px;
+    }
+    #icon_4 {
+      position: absolute;
+      right: 8px;
+      top: -1px;
+      margin-left: 5px;
+      font-size: 15px;
+    }
+    #icon_5 {
+      position: absolute;
+      right: 9px;
+      top: -1px;
+      margin-left: 5px;
+      font-size: 15px;
+    }
+    #icon_6 {
+      position: absolute;
+      right: 9px;
+      top: -1px;
+      margin-left: 5px;
+      font-size: 15px;
+    }
+    #icon_7 {
+      position: absolute;
+      left: 3px;
+      top: -1px;
+      margin-left: 0px;
+    }
+    .button__blue {
+      width: 100%;
+      min-height: 100px;
+      margin-bottom: -40px;
+      &--1 {
+        width: 90px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+      }
+      &--2 {
+        width: 105px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+      }
+      
+      &--3 {
+        width: 95px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+      }
+     
+      &--4 {
+        width: 95px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+      }
+      
+      &--5 {
+        width: 36px;
+        height: 36px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+        padding-bottom: 11px;
+      }
+      
+      &--6 {
+        width: 36px;
+        height: 36px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+        padding-bottom: 11px;
+      }
+      &--7 {
+        width: 36px;
+        height: 36px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+        padding-bottom: 11px;
+      }
+  
+      &--8 {
+        width: 95px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+      }
+      
+      &--9 {
+        width: 95px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+        padding-bottom: 12px;
+      }
+    }
+    .button__blue2 {
+      &--1 {
+        width: 90px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+      }
+      &--2 {
+        width: 105px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+      }
+      &--3 {
+        width: 95px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+      }
+      &--4 {
+        width: 95px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+      }
+      &--5 {
+        width: 36px;
+        height: 36px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+        padding-bottom: 11px;
+      }
+      &--6 {
+        width: 36px;
+        height: 36px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+        padding-bottom: 11px;
+      }
+      &--7 {
+        width: 36px;
+        height: 36px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+        padding-bottom: 11px;
+      }
+      &--8 {
+        width: 95px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+      }
+      &--9 {
+        width: 95px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+        padding-bottom: 12px;
+      }
+    }
+    .button__blue4 {
+      width: 100%;
+      min-height: 100px;
+      margin-bottom: -40px;
+      &--1 {
+        width: 90px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+      }
+      &--2 {
+        width: 105px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+      }
+  
+      &--3 {
+        width: 95px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+      }
+  
+      &--4 {
+        width: 95px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+      }
+  
+      &--5 {
+        width: 36px;
+        height: 36px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+        padding-bottom: 11px;
+      }
+  
+      &--6 {
+        width: 36px;
+        height: 36px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+        padding-bottom: 11px;
+      }
+  
+      &--7 {
+        width: 36px;
+        height: 36px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+        padding-bottom: 11px;
+      }
+  
+      &--8 {
+        width: 95px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+      }
+  
+      &--9 {
+        width: 95px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+        padding-bottom: 12px;
+      }
+    }
+  
+    .button__blue3 {
+      &--1 {
+        width: 90px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: rgb(255, 255, 255);
+      }
+      &--2 {
+        width: 105px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+      }
+      &--3 {
+        width: 95px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+      }
+      &--4 {
+        width: 95px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+      }
+      &--5 {
+        width: 36px;
+        height: 36px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+        padding-bottom: 11px;
+      }
+      &--6 {
+        width: 36px;
+        height: 36px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+        padding-bottom: 11px;
+      }
+      &--7 {
+        width: 36px;
+        height: 36px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+        padding-bottom: 11px;
+      }
+      &--8 {
+        width: 95px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+      }
+      &--9 {
+        width: 95px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+        padding-bottom: 12px;
+      }
+    }
+  }
+  #button_2 {
+    border-style: dashed;
+    border-color: blue;
+    padding: 20px;
+    width: 1000px;
+   #icon_9{
+      font-size: 25px;
+      margin-left: 1px;
+      margin-top: 6px;
+   }
+   #icon_1 {
+      position: absolute;
+      left: 3px;
+      top: -1px;
+      margin-left: 5px;
+    }
+    #icon_2 {
+      position: absolute;
+      right: 5px;
+      top: -1px;
+      margin-left: 5px;
+    }
+    #icon_3 {
+      position: absolute;
+      right: 5px;
+      top: -1px;
+      margin-left: 5px;
+    }
+    #icon_4 {
+      position: absolute;
+      right: 8px;
+      top: -1px;
+      margin-left: 5px;
+      font-size: 15px;
+    }
+    #icon_5 {
+      position: absolute;
+      right: 9px;
+      top: -1px;
+      margin-left: 5px;
+      font-size: 15px;
+    }
+    #icon_6 {
+      position: absolute;
+      right: 9px;
+      top: -1px;
+      margin-left: 5px;
+      font-size: 15px;
+    }
+    #icon_7 {
+      position: absolute;
+      left: 3px;
+      top: -1px;
+      margin-left: 0px;
+    }
+    .button__blue {
+      width: 100%;
+      min-height: 100px;
+      margin-bottom: -40px;
+      &--1 {
+        width: 90px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+      }
+      &--2 {
+        width: 105px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+      }
+      
+      &--3 {
+        width: 95px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+      }
+      
+      &--4 {
+        width: 95px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+      }
+      &--5 {
+        width: 36px;
+        height: 36px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+        padding-bottom: 11px;
+      }
+     
+      &--6 {
+        width: 36px;
+        height: 36px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+        padding-bottom: 11px;
+      }
+      
+      &--7 {
+        width: 36px;
+        height: 36px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+        padding-bottom: 11px;
+      }
+  
+      &--8 {
+        width: 95px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+      }
+      
+      &--9 {
+        width: 95px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+        padding-bottom: 12px;
+      }
+      &--10 {
+        width: 80px;
+        height: 40px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: blue;
+        padding-bottom: 11px;
+        position: relative;
+      }
+      
+    }
+    .button__blue2 {
+      &--1 {
+        width: 90px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+      }
+      &--2 {
+        width: 105px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+      }
+      &--3 {
+        width: 95px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+      }
+      &--4 {
+        width: 95px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+      }
+      &--5 {
+        width: 36px;
+        height: 36px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+        padding-bottom: 11px;
+      }
+      &--6 {
+        width: 36px;
+        height: 36px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+        padding-bottom: 11px;
+      }
+      &--7 {
+        width: 36px;
+        height: 36px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+        padding-bottom: 11px;
+      }
+      &--8 {
+        width: 95px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+      }
+      &--9 {
+        width: 95px;
+        height: 35px;
+        color: white;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: blue;
+        position: relative;
+        padding-bottom: 12px;
+      }
+      &--10 {
+          width: 80px;
+          height: 40px;
+          color: white;
+          border-color: blue;
+          outline: none;
+          border-radius: 50px;
+          letter-spacing: 1px;
+          background-color: blue;
+          padding-bottom: 11px;
+          position: relative;
+        }
+        
+        
+    }
+    .button__blue4 {
+      width: 100%;
+      min-height: 100px;
+      margin-bottom: -40px;
+      &--1 {
+        width: 90px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+      }
+      &--2 {
+        width: 105px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+      }
+  
+      &--3 {
+        width: 95px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+      }
+  
+      &--4 {
+        width: 95px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+      }
+  
+      &--5 {
+        width: 36px;
+        height: 36px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+        padding-bottom: 11px;
+      }
+  
+      &--6 {
+        width: 36px;
+        height: 36px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+        padding-bottom: 11px;
+      }
+  
+      &--7 {
+        width: 36px;
+        height: 36px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+        padding-bottom: 11px;
+      }
+  
+      &--8 {
+        width: 95px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+      }
+  
+      &--9 {
+        width: 95px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+        padding-bottom: 12px;
+      }
+      &--10 {
+          width: 80px;
+          height: 40px;
+          color: blue;
+          border-color: blue;
+          outline: none;
+          border-radius: 6px;
+          letter-spacing: 1px;
+          background-color: white;
+          padding-bottom: 11px;
+          position: relative;
+        }
+        
+    }
+  
+    .button__blue3 {
+      &--1 {
+        width: 90px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: rgb(255, 255, 255);
+      }
+      &--2 {
+        width: 105px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+      }
+      &--3 {
+        width: 95px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+      }
+      &--4 {
+        width: 95px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+      }
+      &--5 {
+        width: 36px;
+        height: 36px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+        padding-bottom: 11px;
+      }
+      &--6 {
+        width: 36px;
+        height: 36px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+        padding-bottom: 11px;
+      }
+      &--7 {
+        width: 36px;
+        height: 36px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+        padding-bottom: 11px;
+      }
+      &--8 {
+        width: 95px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+      }
+      &--9 {
+        width: 95px;
+        height: 35px;
+        color: blue;
+        border-color: blue;
+        outline: none;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: white;
+        position: relative;
+        padding-bottom: 12px;
+      }
+      &--10 {
+          width: 80px;
+          height: 40px;
+          color: blue;
+          border-color: blue;
+          outline: none;
+          border-radius: 6px;
+          letter-spacing: 1px;
+          background-color: white;
+          padding-bottom: 11px;
+          position: relative;
+        }
+        
+    }
+  }

@@ -1,0 +1,999 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#button {
+  border-style: dashed;
+  border-color: blue;
+  padding: 20px;
+  width: 820px;
+}
+#button #icon_1 {
+  position: absolute;
+  left: 3px;
+  top: -1px;
+  margin-left: 5px;
+}
+#button #icon_2 {
+  position: absolute;
+  right: 5px;
+  top: -1px;
+  margin-left: 5px;
+}
+#button #icon_3 {
+  position: absolute;
+  right: 5px;
+  top: -1px;
+  margin-left: 5px;
+}
+#button #icon_4 {
+  position: absolute;
+  right: 8px;
+  top: -1px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+#button #icon_5 {
+  position: absolute;
+  right: 9px;
+  top: -1px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+#button #icon_6 {
+  position: absolute;
+  right: 9px;
+  top: -1px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+#button #icon_7 {
+  position: absolute;
+  left: 3px;
+  top: -1px;
+  margin-left: 0px;
+}
+#button .button__blue {
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: -40px;
+}
+#button .button__blue--1 {
+  width: 90px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+}
+#button .button__blue--2 {
+  width: 105px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+}
+#button .button__blue--3 {
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+}
+#button .button__blue--4 {
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+}
+#button .button__blue--5 {
+  width: 36px;
+  height: 36px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button .button__blue--6 {
+  width: 36px;
+  height: 36px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button .button__blue--7 {
+  width: 36px;
+  height: 36px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button .button__blue--8 {
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+}
+#button .button__blue--9 {
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+  padding-bottom: 12px;
+}
+#button .button__blue2--1 {
+  width: 90px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+}
+#button .button__blue2--2 {
+  width: 105px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+}
+#button .button__blue2--3 {
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+}
+#button .button__blue2--4 {
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+}
+#button .button__blue2--5 {
+  width: 36px;
+  height: 36px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button .button__blue2--6 {
+  width: 36px;
+  height: 36px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button .button__blue2--7 {
+  width: 36px;
+  height: 36px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button .button__blue2--8 {
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+}
+#button .button__blue2--9 {
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+  padding-bottom: 12px;
+}
+#button .button__blue4 {
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: -40px;
+}
+#button .button__blue4--1 {
+  width: 90px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+}
+#button .button__blue4--2 {
+  width: 105px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+}
+#button .button__blue4--3 {
+  width: 95px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+}
+#button .button__blue4--4 {
+  width: 95px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+}
+#button .button__blue4--5 {
+  width: 36px;
+  height: 36px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button .button__blue4--6 {
+  width: 36px;
+  height: 36px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button .button__blue4--7 {
+  width: 36px;
+  height: 36px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button .button__blue4--8 {
+  width: 95px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+}
+#button .button__blue4--9 {
+  width: 95px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 12px;
+}
+#button .button__blue3--1 {
+  width: 90px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: rgb(255, 255, 255);
+}
+#button .button__blue3--2 {
+  width: 105px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+}
+#button .button__blue3--3 {
+  width: 95px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+}
+#button .button__blue3--4 {
+  width: 95px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+}
+#button .button__blue3--5 {
+  width: 36px;
+  height: 36px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button .button__blue3--6 {
+  width: 36px;
+  height: 36px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button .button__blue3--7 {
+  width: 36px;
+  height: 36px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button .button__blue3--8 {
+  width: 95px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+}
+#button .button__blue3--9 {
+  width: 95px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#button_2 {
+  border-style: dashed;
+  border-color: blue;
+  padding: 20px;
+  width: 1000px;
+}
+#button_2 #icon_9 {
+  font-size: 25px;
+  margin-left: 1px;
+  margin-top: 6px;
+}
+#button_2 #icon_1 {
+  position: absolute;
+  left: 3px;
+  top: -1px;
+  margin-left: 5px;
+}
+#button_2 #icon_2 {
+  position: absolute;
+  right: 5px;
+  top: -1px;
+  margin-left: 5px;
+}
+#button_2 #icon_3 {
+  position: absolute;
+  right: 5px;
+  top: -1px;
+  margin-left: 5px;
+}
+#button_2 #icon_4 {
+  position: absolute;
+  right: 8px;
+  top: -1px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+#button_2 #icon_5 {
+  position: absolute;
+  right: 9px;
+  top: -1px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+#button_2 #icon_6 {
+  position: absolute;
+  right: 9px;
+  top: -1px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+#button_2 #icon_7 {
+  position: absolute;
+  left: 3px;
+  top: -1px;
+  margin-left: 0px;
+}
+#button_2 .button__blue {
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: -40px;
+}
+#button_2 .button__blue--1 {
+  width: 90px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+}
+#button_2 .button__blue--2 {
+  width: 105px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+}
+#button_2 .button__blue--3 {
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+}
+#button_2 .button__blue--4 {
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+}
+#button_2 .button__blue--5 {
+  width: 36px;
+  height: 36px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button_2 .button__blue--6 {
+  width: 36px;
+  height: 36px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button_2 .button__blue--7 {
+  width: 36px;
+  height: 36px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button_2 .button__blue--8 {
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+}
+#button_2 .button__blue--9 {
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+  padding-bottom: 12px;
+}
+#button_2 .button__blue--10 {
+  width: 80px;
+  height: 40px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: blue;
+  padding-bottom: 11px;
+  position: relative;
+}
+#button_2 .button__blue2--1 {
+  width: 90px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+}
+#button_2 .button__blue2--2 {
+  width: 105px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+}
+#button_2 .button__blue2--3 {
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+}
+#button_2 .button__blue2--4 {
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+}
+#button_2 .button__blue2--5 {
+  width: 36px;
+  height: 36px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button_2 .button__blue2--6 {
+  width: 36px;
+  height: 36px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button_2 .button__blue2--7 {
+  width: 36px;
+  height: 36px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button_2 .button__blue2--8 {
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+}
+#button_2 .button__blue2--9 {
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  position: relative;
+  padding-bottom: 12px;
+}
+#button_2 .button__blue2--10 {
+  width: 80px;
+  height: 40px;
+  color: white;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: blue;
+  padding-bottom: 11px;
+  position: relative;
+}
+#button_2 .button__blue4 {
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: -40px;
+}
+#button_2 .button__blue4--1 {
+  width: 90px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+}
+#button_2 .button__blue4--2 {
+  width: 105px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+}
+#button_2 .button__blue4--3 {
+  width: 95px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+}
+#button_2 .button__blue4--4 {
+  width: 95px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+}
+#button_2 .button__blue4--5 {
+  width: 36px;
+  height: 36px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button_2 .button__blue4--6 {
+  width: 36px;
+  height: 36px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button_2 .button__blue4--7 {
+  width: 36px;
+  height: 36px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button_2 .button__blue4--8 {
+  width: 95px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+}
+#button_2 .button__blue4--9 {
+  width: 95px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 12px;
+}
+#button_2 .button__blue4--10 {
+  width: 80px;
+  height: 40px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  padding-bottom: 11px;
+  position: relative;
+}
+#button_2 .button__blue3--1 {
+  width: 90px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: rgb(255, 255, 255);
+}
+#button_2 .button__blue3--2 {
+  width: 105px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+}
+#button_2 .button__blue3--3 {
+  width: 95px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+}
+#button_2 .button__blue3--4 {
+  width: 95px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+}
+#button_2 .button__blue3--5 {
+  width: 36px;
+  height: 36px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button_2 .button__blue3--6 {
+  width: 36px;
+  height: 36px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button_2 .button__blue3--7 {
+  width: 36px;
+  height: 36px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 11px;
+}
+#button_2 .button__blue3--8 {
+  width: 95px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+}
+#button_2 .button__blue3--9 {
+  width: 95px;
+  height: 35px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 12px;
+}
+#button_2 .button__blue3--10 {
+  width: 80px;
+  height: 40px;
+  color: blue;
+  border-color: blue;
+  outline: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background-color: white;
+  padding-bottom: 11px;
+  position: relative;
+}/*# sourceMappingURL=button.css.map */

@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#info {
+  margin-left: -388px;
+  margin-top: 132px;
+  font-size: 18px;
+  color: rosybrown;
+}
+
+#yes {
+  margin-left: -386px;
+  margin-top: 13px;
+  color: green;
+  font-size: 17px;
+}
+
+#bell {
+  margin-left: -387px;
+  margin-top: 11px;
+  font-size: 18px;
+  color: blue;
+}
+
+#star {
+  margin-left: -388px;
+  margin-top: -226px;
+  color: orange;
+  font-size: 17px;
+}
+
+#music {
+  margin-left: -388px;
+  margin-top: -107px;
+  color: red;
+}
+
+#x1 {
+  margin-left: -26px;
+  margin-top: 17px;
+  font-size: 10px;
+  color: orange;
+}
+
+#x2 {
+  margin-left: -27px;
+  margin-top: 76px;
+  color: red;
+  font-size: 10px;
+}
+
+#x3 {
+  margin-left: -27px;
+  margin-top: 135px;
+  font-size: 10px;
+  color: green;
+}
+
+#x4 {
+  margin-left: -27px;
+  margin-top: 194px;
+  font-size: 10px;
+  color: cadetblue;
+}
+
+#x5 {
+  margin-left: -27px;
+  margin-top: 255px;
+  font-size: 10px;
+  color: blue;
+}
+
+section {
+  padding-left: 30px;
+  padding-top: 40px;
+  position: relative;
+  width: 450px;
+}
+section button {
+  margin-bottom: 20px;
+  width: 400px;
+  height: 40px;
+  text-align: start;
+  padding-left: 40px;
+}
+section i {
+  position: absolute;
+}
+section .nida {
+  color: orange;
+}
+section .no {
+  color: red;
+}
+section .yes {
+  color: green;
+}
+section .icon {
+  color: rgb(47, 39, 39);
+}
+section .zeng {
+  color: blue;
+}/*# sourceMappingURL=alerts.css.map */
