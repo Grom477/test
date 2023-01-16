@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    .nav__container {
+        .nav__menu {
+            z-index: 99;
+            display: flex;
+            align-items: center;
+            height: 100px;
+            justify-content: center;
+
+
+            .add:hover {
+                .con {
+                    z-index: 2;
+                    display: flex;
+                    transition: all linear .3s;
+                }
+
+                .lists__icon {
+                    color: #ba958b;
+                    transform: rotate(180deg);
+                    transition: all linear .3s;
+                }
+            }
+
+            .lists__title:hover {
+                color: #a38178;
+            }
+
+
+            .lists {
+
+                &__title {
+                    font-size: 17px;
+                    text-transform: uppercase;
+                    color: #000;
+                    margin-left: 10px;
+                    font-weight: bold;
+                }
+
+                &__icon {}
+
+                .con {
+                    display: flex;
+                    justify-content: space-around;
+                    min-width: 1400px;
+                    min-height: 750px;
+                    display: none;
+                    position: absolute;
+                    background-color: #fff;
+
+                    &__place {
+                        padding-top: 50px;
+                        text-align: start;
+
+                        .con__lists {
+                            .cay {
+                                padding-bottom: 20px;
+                            }
+
+                            .con__lists-item:hover {
+                                color: #ba958b;
+                            }
+
+                            &-item {
+                                display: flex;
+                                padding-bottom: 20px;
+                                font-size: 20px;
+                                color: #000;
+                                padding-left: 20px;
+
+
+                            }
+                        }
+
+                        .con__place-img {
+                            width: 400px;
+                            height: 430px;
+                            padding-right: 20px;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.con__hamam {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    height: 500px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    align-items: center;
+}
+
+.add:hover {
+    .con__hamam {
+        z-index: 2;
+        display: flex;
+        transition: all linear .3s;
+    }
+}
+
+.con__hamam-img {
+    width: 250px;
+    height: 400px;
+    padding-right: 20px;
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+.con__dekor {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    height: 550px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+}
+
+.add:hover {
+    .con__dekor {
+        z-index: 2;
+        display: flex;
+        transition: all linear .3s;
+    }
+}
+
+.con__dekor-img {
+    width: 300px;
+    height: 450px;
+    padding-right: 20px;
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+.con__usaq {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    height: 200px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+}
+
+.add:hover {
+    .con__usaq {
+        z-index: 2;
+        display: flex;
+        transition: all linear .3s;
+    }
+}
+
+.con__usaq-img {
+    width: 230px;
+    height: 140px;
+    padding-right: 20px;
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+.con__mebel {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 450px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    align-items: center;
+}
+
+.add:hover {
+    .con__mebel {
+        z-index: 2;
+        display: flex;
+        transition: all linear .3s;
+    }
+}
+
+.con__hediyya {
+    display: flex;
+    justify-content: space-around;
+    width: 270px;
+    height: 200px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    align-items: center;
+}
+
+.add:hover {
+    .con__hediyya {
+        z-index: 2;
+        display: flex;
+        transition: all linear .3s;
+    }
+}
+
+.endirim {
+    color: red !important;
+}
+
+.search {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    align-items: center;
+    background-color: #ba958b;
+
+    .title {
+        color: #fff;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-size: 37px;
+    }
+
+    .input__header {
+        position: relative;
+
+        .input__search {
+            width: 600px;
+            height: 45px;
+        }
+
+        .input__search::placeholder {
+            opacity: .8;
+            font-size: 20px;
+            text-align: start;
+            padding-left: 20px;
+
+        }
+
+        .icon__search {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            background-color: #fff;
+        }
+    }
+
+    .button__circle {
+        position: relative;
+
+        button {
+            width: 200px;
+            height: 40px;
+            background-color: #cdaaa1;
+            border: none;
+            color: #fff;
+            font-size: 20px;
+            letter-spacing: 1px;
+            opacity: .8;
+            text-align: start;
+            padding-left: 15px;
+
+        }
+
+        .circle {
+            position: absolute;
+            opacity: .8;
+            top: 8px;
+            right: 15px;
+
+        }
+
+    }
+
+    .header__icons {
+        display: flex;
+        column-gap: 40px;
+    }
+}
+
+main {
+    .card {
+        &__main {
+            position: relative;
+
+            .card__back {
+                width: 100%;
+                height: 600px;
+            }
+
+            .bag__kolleksiya {
+                position: absolute;
+                color: #fff;
+                font-weight: 900;
+                font-size: 60px;
+                top: 40%;
+                left: 15%;
+
+            }
+
+            .bag__button {
+                width: 200px;
+                height: 55px;
+                position: absolute;
+                right: 75%;
+                top: 55%;
+                background-color: #ba958b;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+
+                .bag__satis {
+                    color: #fff;
+                    font-size: 17px;
+                    font-weight: 700;
+                }
+            }
+
+            .bag__button:hover {
+                background-color: #fff;
+
+                .bag__satis {
+                    color: #ba958b;
+                }
+            }
+        }
+    }
+
+    .card__other {
+        display: flex;
+        justify-content: space-around;
+
+        .card__plan:hover {
+            img {
+                scale: (.96);
+                transition: all linear .35s;
+            }
+
+            .yataq__button {
+                visibility: visible;
+                transition: all linear .35s;
+            }
+        }
+
+        .card__plan {
+            width: 33%;
+            position: relative;
+
+            .card__yataq {
+                width: 100%;
+                height: 400px;
+
+            }
+
+            .yataq__desti {
+                color: #fff;
+                font-weight: 900;
+                font-size: 35px;
+                top: 50%;
+                right: 35%;
+                position: absolute;
+
+            }
+
+            .yataq__button {
+                width: 200px;
+                height: 45px;
+                position: absolute;
+                border-radius: 4px;
+                background-color: #ba958b;
+                border: none;
+                top: 70%;
+                right: 35%;
+                visibility: hidden;
+                cursor: pointer;
+
+                .yataq__satis {
+                    color: #fff;
+                    font-size: 17px;
+                    font-weight: 700;
+                }
+            }
+
+            .yataq__button:hover {
+                background-color: #fff;
+
+                .yataq__satis {
+                    color: #ba958b;
+                }
+            }
+
+        }
+    }
+
+    .satanlar {
+        .satanlar__info {
+            text-align: center;
+
+            .cox__satanlar {
+                font-size: 40px;
+                margin-bottom: 30px;
+                margin-top: 160px;
+            }
+
+            .under__sayanlar {
+                font-size: 15px;
+            }
+        }
+
+        .blocks {
+            display: flex;
+            justify-content: center;
+            column-gap: 20px;
+            padding-top: 50px;
+
+            .block__image {
+
+                text-align: center;
+
+                .block__pic {
+                    width: 350px;
+                    height: 400px;
+
+                }
+
+                .pic__info {
+                    font-size: 20px;
+                    margin-top: 20px;
+                }
+
+                .pic__price {
+                    font-size: 23px;
+                    color: #ba958b;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    padding: 70px 0px;
+    background-color: #172134;
+    color: #fff;
+
+    .first__half {
+        display: flex;
+        justify-content: space-evenly;
+
+        .komek__info {
+            
+            .firts__info {
+                
+                .main__info {
+                    
+                }
+
+                .lists__info {
+                    padding: 20px 0px;
+                    opacity: .1;
+                }
+            }
+        }
+
+        .elaqe {
+            .contacts {
+                .contac__icon {}
+            }
+        }
+
+        .email {
+            .email__input {
+
+            width: 300px;
+            height: 40px;
+            background-color:#1d2941;
+            }
+
+            ::placeholder {
+                font-size: 17px;
+                font-weight: 900;
+                opacity: .7;
+                
+            }
+                
+            .button__contact {
+
+            }
+
+            .social__icons {}
+        }
+    }
+
+    hr {
+        margin: 20px 0px;
+        opacity: .5;
+    }
+
+    .second__half {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        .button__circle {
+            position: relative;
+
+            .info__circle {
+                width: 200px;
+                height: 40px;
+                background-color: #1e2a42;
+                border: none;
+                color: #fff;
+                font-size: 20px;
+                letter-spacing: 1px;
+                opacity: .8;
+                text-align: start;
+                padding-left: 15px;
+            }
+
+            .socil {
+                position: absolute;
+                opacity: .8;
+                
+            }
+        }
+
+        .mexanik {}
+
+        .last__info {}
+    }
+
+}
