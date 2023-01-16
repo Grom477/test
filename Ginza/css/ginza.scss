@@ -18,6 +18,7 @@ a {
   color: #fff;
 }
 
+
 header {
   margin-bottom: 10%;
   .bcimage {
@@ -420,6 +421,7 @@ footer {
 }
 
 @media only screen and (max-width: 991px) {
+
   .bcimage__contact {
     display: none;
   }
@@ -571,7 +573,6 @@ footer {
   }
   .footer {
     padding: 80px 0;
-    margin-left: 40px !important;
     width: 100% !important;
     height: 100% !important;
     flex-direction: column;

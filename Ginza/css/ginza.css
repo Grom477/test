@@ -501,7 +501,6 @@ footer .footer__links-info {
   }
   .footer {
     padding: 80px 0;
-    margin-left: 40px !important;
     width: 100% !important;
     height: 100% !important;
     flex-direction: column;
