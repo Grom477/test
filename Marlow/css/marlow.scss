@@ -1,0 +1,243 @@
+@import "mixin";
+@import "mixin2";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+button:hover {
+  cursor: pointer;
+}
+img {
+  width: 100%;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: #1f0d0d;
+  color: #fff;
+
+  .header__logo {
+    z-index: 20;
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include mobile {
+      width: 90%;
+    }
+    .mobile__button {
+      display: none;
+      &-icon {
+        @include mobile {
+          font-size: 40px;
+          background-color: rgb(90, 60, 60, 0);
+          color: #fff;
+          border: none;
+        }
+      }
+    
+    }
+    .header__logo-title {
+      font-size: 25px;
+      letter-spacing: 1px;
+      @include mobile {
+        font-size: 30px; 
+      }
+     
+    }
+
+
+    .header__nav {
+      display: flex;
+      justify-content: space-between;
+      column-gap: 90px;
+      align-items: center;
+      .header__nav-home {
+        font-size: 15px;
+        border-bottom: 1px solid;
+        @include mobile {
+          display: none;
+        }
+      }
+
+      .header__nav-shoping {
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+        .nav__shoping-icon {
+          font-size: 20px;
+          color: #fff;
+          @include mobile {
+            font-size: 25px;
+          }
+        }
+
+        .nav__shoping-info {
+          font-size: 15px;
+          @include mobile {
+            font-size: 20px;
+          }
+        }
+        .nav__shoping-info:hover {
+          border-bottom: 1px solid;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+main {
+  .mainpage {
+    background: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/marlowliteypxjs/Group%204291.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 800px;
+    width: 100%;
+    @include mobile {
+      display: flex;
+      align-items: center;
+    }
+    .bcimage {
+      color: #fff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      
+      &__title {
+        padding-top: 3%;
+        padding-bottom: 15%;
+        font-size: 25px;
+        @include mobile {
+          padding-bottom: 5%;
+        }
+      }
+      &__main {
+        font-size: 80px;
+        width: 50%;
+        margin: 0 auto;
+      @include mobile {
+        width: 100%;
+      }
+        
+      }
+      &__info {
+        padding-top: 5%;
+        font-size: 22px;
+      }
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 100px auto;
+    column-gap: 25px;
+    row-gap: 25px;
+    @include mobile {
+      width: 90%;   
+    }
+    &__form {
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+      @include mobile {
+        width: 100%;
+      }
+      &-image {
+        width: 380px;
+        height: 400px;
+        @include mobile {
+          width: auto;
+          height: auto;
+        }
+      }
+      &-image:hover {
+        filter: grayscale(80%);
+      }
+      &-info {
+        font-size: 15px;
+        @include mobile {
+          font-size: 20px;
+        }
+      }
+      &-price {
+        font-size: 15px;
+        @include mobile {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: #1f0d0d;
+  color: #fff;
+  .bottom {
+    padding: 80px 0;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    @include mobile-s {
+      width: 100%;
+    }
+    .left {
+      width: 49%;
+      &-info {
+      }
+      .right {
+        display: flex;
+        &-contact {
+          &-title {
+          }
+          &-info {
+          }
+        }
+        .contact__social {
+          &-icons {
+            text-align: center;
+            display: flex;
+            margin: 0 auto;
+            justify-content: space-between;
+            width: 10%;
+
+            .fa-twitter {
+              font-size: 30px;
+            }
+
+            .fa-facebook {
+              font-size: 30px;
+            }
+
+            .fa-instagram {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
