@@ -271,12 +271,13 @@
 // 26)forEach ve map arasindaki ferq ?
 // forEach ve map ferqi var ki, map React da daha cox iwtedir
 // map da olar vermek varuable kimi ve duzgun iwdeyecek, amma forEach error verecek
+// map teze funksiya yaradir ve her funksiya orda yoxlayir
 // Misal:
 // let array = ['amin','rauf']
-// let x = array.map(x => (x=array.tuUpperCase()))
+// let a = array.map(x => (x.tuUpperCase()))
 // Eger biz forEach yazarix bize error verecek
 // let array = ['amin','rauf']
-// let x = array.forEach(x => (x=array.tuUpperCase()))
+// let x = array.forEach(x => (x.tuUpperCase()))
 
 // 27) O(log n) nece teying olunur ? 
 // o binerySearch di ve gosterir bize sureti 'log n' 
