@@ -284,6 +284,25 @@
 // Bubble Sort
 // Quick Sort
 // Shall Sort ve elave
+// Misal:
+// function recursiveBinerySearch(arr, target) {
+//     return binerySearch(arr, target, 0, arr.length - 1)
+// }
+// function binerySearch(arr, target, leftIndex, rightIndex) {
+//     while (leftIndex <= rightIndex) {
+//         let midIndex = Math.floor((leftIndex + rightIndex) / 2)
+//         if (arr[midIndex] < target) {
+//             return binerySearch(arr, target, midIndex + 1, rightIndex)
+//         } else if (arr[midIndex] > target) {
+//             return binerySearch(arr, target, leftIndex, midIndex - 1)
+//         } else {
+//             return midIndex
+//         }
+//     }
+//     return -1
+// }
+// const arr = [2, 4, 8, 13, 27, 45]
+// console.log(recursiveBinerySearch(arr, 45))
 
 // 28) “Hello my friend. How are you ?” bu cumlede en cox istifade olunan her ve ya herifleri ekranda gosterin
 // let words = 'Hello my friend. How are you ?'
