@@ -1,0 +1,65 @@
+body {
+  background-color: #3498db;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  height: 84vh;
+}
+
+.box {
+  width: 500px;
+  height: 130px;
+  background-color: #3498db;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  position: fixed;
+  transition: all 0.5s;
+  justify-content: center;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  border: none;
+  font-size: 30px;
+  background-color: white;
+  color: #3498db;
+}
+.slide .number {
+  position: absolute;
+  justify-content: center;
+  top: 40px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  border: none;
+  font-size: 30px;
+  background-color: white;
+  color: #3498db;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.btn {
+  border-radius: 50%;
+  background-color: white;
+  border-color: transparent;
+  color: #3498db;
+  font-weight: 900;
+  font-size: 17px;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+.next-btn {
+  position: absolute;
+  left: 68%;
+}
+
+.prev-btn {
+  position: absolute;
+  right: 68%;
+}/*# sourceMappingURL=index5.css.map */

@@ -1,0 +1,61 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3498db;
+  position: relative;
+}
+
+.slider {
+  position: relative;
+  background-color: #fff;
+  height: 150px;
+  border-radius: 100%;
+  width: 400px;
+  overflow: hidden;
+  display: flex;
+  border: 1px solid green;
+}
+
+.slide {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  width: 25%;
+  position: absolute;
+  top: 0;
+  justify-content: center;
+  transition: 0.4s;
+  background-color: rgba(0, 255, 13, 0.653);
+  color: #3498db;
+  font-weight: 900;
+}
+
+.btn button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #3498db;
+  background-color: rgba(0, 255, 13, 0.653);
+  font-size: 20px;
+}
+.btn__next {
+  position: absolute;
+  right: 28%;
+  top: 48%;
+}
+.btn__prev {
+  position: absolute;
+  left: 28%;
+  top: 48%;
+}
+
+.pagination {
+  position: absolute;
+  top: 65%;
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}/*# sourceMappingURL=index4.css.map */

@@ -25,4 +25,3 @@ submitButton.addEventListener("click", ()=>{
 })
 closeButton2.addEventListener("click", closeBox)
 
-

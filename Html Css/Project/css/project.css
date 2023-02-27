@@ -32,7 +32,6 @@ img {
 
 header {
   height: 90px;
-  position: -webkit-sticky;
   position: sticky;
   z-index: 20;
   top: 0;
@@ -252,9 +251,6 @@ main .bottom__info-email {
   height: 40px;
 }
 main .bottom__info-email::-moz-placeholder {
-  padding-left: 20px;
-}
-main .bottom__info-email:-ms-input-placeholder {
   padding-left: 20px;
 }
 main .bottom__info-email::placeholder {

@@ -220,12 +220,6 @@ a {
   text-align: start;
   padding-left: 20px;
 }
-.search .input__header .input__search:-ms-input-placeholder {
-  opacity: 0.8;
-  font-size: 20px;
-  text-align: start;
-  padding-left: 20px;
-}
 .search .input__header .input__search::placeholder {
   opacity: 0.8;
   font-size: 20px;
@@ -408,11 +402,6 @@ footer .first__half .email .email__input {
   background-color: #1d2941;
 }
 footer .first__half .email ::-moz-placeholder {
-  font-size: 17px;
-  font-weight: 900;
-  opacity: 0.7;
-}
-footer .first__half .email :-ms-input-placeholder {
   font-size: 17px;
   font-weight: 900;
   opacity: 0.7;

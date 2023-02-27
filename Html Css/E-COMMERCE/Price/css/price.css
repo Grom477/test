@@ -100,7 +100,6 @@ a {
 }
 #image button:hover {
   background-color: red;
-  cursor: -webkit-grab;
   cursor: grab;
 }
 #image button {

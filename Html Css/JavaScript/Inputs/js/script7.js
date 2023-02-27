@@ -5,6 +5,9 @@ const openButton = document.querySelector(".btn-open")
 const closeButton = document.querySelector(".btn-close")
 const closeButton2 = document.querySelector(".btn-close2")
 const submitButton = document.querySelector(".btn")
+const cancelButton = document.querySelector(".btn1")
+const cancelsButton = document.querySelector(".btn2")
+
 
 const openBox = () => {
     box.classList.remove("hidden")
@@ -21,8 +24,10 @@ closeButton.addEventListener("click", closeBox)
 overlay.addEventListener("click", closeBox) 
 submitButton.addEventListener("click", ()=>{
     box.classList.add("hidden")
-    overlay.classList.add("hidden")
+    box2.classList.remove("hidden")
 })
 closeButton2.addEventListener("click", closeBox)
+cancelButton.addEventListener("click", closeBox)
+cancelsButton.addEventListener("click", closeBox)
 
 
