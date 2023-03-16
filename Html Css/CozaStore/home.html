@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozastore</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://kit.fontawesome.com/5643fa62d3.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <style>
+        .slide-in-bottom3 {
+            animation: slide-in-bottom .5s cubic-bezier(.25, .46, .45, .94) both
+        }
+
+        .slide-in-top {
+            animation: slide-in-top 1.5s cubic-bezier(.25, .46, .45, .94) both
+        }
+
+        .slide-in-bottom {
+            animation: slide-in-bottom 1.5s cubic-bezier(.25, .46, .45, .94) 1s both
+        }
+
+        .scale-in-center {
+            animation: scale-in-center 1s cubic-bezier(.25, .46, .45, .94) 2s both
+        }
+
+        .scale-in-center1 {
+            animation: scale-in-center 1s cubic-bezier(.25, .46, .45, .94) both
+        }
+
+        .rotate-in-2-br-cw {
+            animation: rotate-in-2-br-cw 1s cubic-bezier(.25, .46, .45, .94) both
+        }
+
+        .slide-in-bottom2 {
+            animation: slide-in-bottom 1.5s cubic-bezier(.25, .46, .45, .94) 2s both
+        }
+
+        .slide-in-right {
+            animation: slide-in-right 1s cubic-bezier(.25, .46, .45, .94) 1s both
+        }
+
+        @keyframes slide-in-bottom3 {
+            0% {
+                transform: translateY(50px);
+                opacity: 0
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1
+            }
+        }
+
+        @keyframes img {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slide-in-top {
+            0% {
+                transform: translateY(-100px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slide-in-bottom {
+            0% {
+                transform: translateY(80px);
+                opacity: 0
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1
+            }
+        }
+
+        @keyframes scale-in-center {
+            0% {
+                transform: scale(0);
+                opacity: 1
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1
+            }
+        }
+
+        @keyframes scale-in-center1 {
+            0% {
+                transform: scale(0);
+                opacity: 1
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1
+            }
+        }
+
+        @keyframes rotate-in-2-br-cw {
+            0% {
+                transform: rotate(-45deg);
+                transform-origin: 100% 100%;
+                opacity: 0
+            }
+
+            100% {
+                transform: rotate(0);
+                transform-origin: 100% 100%;
+                opacity: 1
+            }
+        }
+
+        @keyframes slide-in-right {
+            0% {
+                transform: translateX(100px);
+                opacity: 0
+            }
+
+            100% {
+                transform: translateX(0);
+                opacity: 1
+            }
+        }
+    </style>
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <div class="loader">
+        <img src="./loading/Infinity-1.3s-200px (1).svg" alt="" srcset="">
+    </div>
+
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href="#"><img src="./img/logo-01.png.webp" alt="logo"></a>
+            </div>
+            <nav class="nav">
+                <ul class="nav__lists">
+                    <li class="nav__lists-info"><a href="#" class="nav__lists-info" id="nav__lists-info">Home</a></li>
+                    <li class="nav__lists-info"><a href="./shop.html" class="nav__lists-info">Shop</a></li>
+                    <li class="nav__lists-info"><a href="./about.html" class="nav__lists-info">About</a></li>
+                    <li class="nav__lists-info"><a href="./contact.html" class="nav__lists-info">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header__icons">
+                <a class="header__icons-info"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a class="header__icons-info"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a class="header__icons-info"><i class="fa-regular fa-heart"></i></a>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="search transformY">
+        <div class="search__info">
+            <form action="">
+                <input type="text" placeholder="Search...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+            <img src="./img/icon-close2.png.webp" alt="" class="search__close-icon">
+        </div>
+        <div class="search__overlay"></div>
+    </div>
+
+    <main>
+        <section class="slider">
+            <div class="slider__images">
+                <div class="con">
+                    <div class="slider__images-photo"><img src="./img/slide-01.jpg.webp" alt=""></div>
+                    <div class="pack__info">
+                        <p class="pack__info-text slide-in-top">Women Collection 2018</p>
+                        <h1 class="pack__info-title slide-in-bottom">NEW SEASON</h1>
+                        <button class="pack__info-btn scale-in-center">
+                            <p class="pack__info-btnText">SHOP NOW</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="con">
+                    <div class="slider__images-photo"><img src="./img/slide-02.jpg.webp" alt=""></div>
+                    <div class="pack__info">
+                        <p class="pack__info-text rotate-in-2-br-cw">Men New-Season</p>
+                        <h1 class="pack__info-title slide-in-right">Jackets & Coats</h1>
+                        <button class="pack__info-btn slide-in-bottom2">
+                            <p class="pack__info-btnText">SHOP NOW</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="con">
+                    <div class="slider__images-photo"><img src="./img/slide-03.jpg.webp" alt=""></div>
+                    <div class="pack__info">
+                        <p class="pack__info-text slide-in-top">Men Collection 2018</p>
+                        <h1 class="pack__info-title slide-in-bottom">New arrivals</h1>
+                        <button class="pack__info-btn scale-in-center">
+                            <p class="pack__info-btnText">SHOP NOW</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="empty_div">1</div>
+            </div>
+            <div class="slider__button">
+                <i class="fa-solid fa-caret-left "></i>
+                <i class="fa-solid fa-caret-right "></i>
+            </div>
+
+        </section>
+        <section class="shopBag transformX">
+            <div class="container">
+                <div class="containers">
+                    <h1 class="containers__title">YOUR CART</h1>
+                    <img src="./img/icon-close2.png.webp" alt="" class="containers__icon">
+                </div>
+                <div class="container__boxes">
+                    <div class="container__box">
+                        <img src="./img/item-cart-01.jpg.webp" alt="" class="container__box-image">
+                        <div class="container__box-info">
+                            <p class="container__box-text">White Shirt Pleat</p>
+                            <p class="container__box-text2">1 x $19.00</p>
+                        </div>
+                    </div>
+                    <div class="container__box">
+                        <img src="./img/item-cart-02.jpg.webp" alt="" class="container__box-image">
+                        <div class="container__box-info">
+                            <p class="container__box-text">Converse All Star</p>
+                            <p class="container__box-text2">1 x $39.00</p>
+                        </div>
+                    </div>
+                    <div class="container__box">
+                        <img src="./img/item-cart-03.jpg.webp" alt="" class="container__box-image">
+                        <div class="container__box-info">
+                            <p class="container__box-text">Nixon Porter Leather</p>
+                            <p class="container__box-text2">1 x $17.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__total">
+                    <p class="container__total-title">Total: $75.00</p>
+                    <div class="container__btn">
+                        <button class="container__btn-cart">
+                            <p class="btn__text">VIEW CART</p>
+                        </button>
+                        <button class="container__btn-cart">
+                            <p class="btn__text">CHECK OUT</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="shopBag__overlay"></div>
+        </section>
+        <section class="boxes">
+            <div class="box">
+                <img src="./img/banner-01.jpg.webp" alt="" class="box__image">
+                <a class="box__info" href="#">
+                    <div class="box__info-text">
+                        <h1 class="box__title">Women</h1>
+                        <p class="box__text">Spring 2018</p>
+                    </div>
+                    <div class="box__info-text2">
+                        <p class="box__text2 scale-in-center1">SHOP NOW</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <img src="./img/banner-02.jpg.webp" alt="" class="box__image">
+                <a class="box__info" href="#">
+                    <div class="box__info-text">
+                        <h1 class="box__title">Men</h1>
+                        <p class="box__text">Spring 2018</p>
+                    </div>
+                    <div class="box__info-text2">
+                        <p class="box__text2 scale-in-center1">SHOP NOW</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <img src="./img/banner-03.jpg.webp" alt="" class="box__image">
+                <a class="box__info" href="#">
+                    <div class="box__info-text">
+                        <h1 class="box__title">Accessories</h1>
+                        <p class="box__text">New Trend</p>
+                    </div>
+                    <div class="box__info-text2">
+                        <p class="box__text2 scale-in-center1">SHOP NOW</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="product">
+            <h1 class="product__title">PRODUCT OVERVIEW</h1>
+            <nav class="product__lists">
+                <!-- <ul class="product__list">
+                    <li class="product__list-info" id="allProducts">All Products</li>
+                    <li class="product__list-info" id="women">Women</li>
+                    <li class="product__list-info" id="men">Men</li>
+                    <li class="product__list-info" id="bag">Bag</li>
+                    <li class="product__list-info" id="shoes">Shoes</li>
+                    <li class="product__list-info" id="watches">Watches</li>
+                </ul> -->
+            </nav>
+            <div class="product_carts">
+
+                <!-- <div class="product__box" id="women">
+                    <div class="productImg">
+                        <img src="./img/product-01.jpg" alt="" class="product__box-image">
+                    </div>
+                    
+                    <p class="product__box-title">Esprit Ruffle Shirt</p>
+                    <p class="product__box-price">$16.64</p>
+                    <a href="" class="product__box-icon"><img src="./img/icon-heart-01.png.webp" alt="heart"></a>
+                </div> 
+                <div class="product__box" id="women">
+                    <div class="productImg">
+                        <img src="./img/product-02.jpg.webp" alt="" class="product__box-image">
+                    </div>
+                    <p class="product__box-title">Esprit Ruffle Shirt</p>
+                    <p class="product__box-price">$16.64</p>
+                    <a href="" class="product__box-icon"><img src="./img/icon-heart-01.png.webp" alt="heart"></a>
+                </div> 
+                <div class="product__box" id="men">
+                    <div class="productImg">
+                        <img src="./img/product-03.jpg.webp" alt="" class="product__box-image">
+                    </div>
+                    <p class="product__box-title">Esprit Ruffle Shirt</p>
+                    <p class="product__box-price">$16.64</p>
+                    <a href="" class="product__box-icon"><img src="./img/icon-heart-01.png.webp" alt="heart"></a>
+                </div> 
+                <div class="product__box" id="women">
+                    <div class="productImg">
+                        <img src="./img/product-04.jpg.webp" alt="" class="product__box-image">
+                    </div>
+                    <p class="product__box-title">Esprit Ruffle Shirt</p>
+                    <p class="product__box-price">$16.64</p>
+                    <a href="" class="product__box-icon"><img src="./img/icon-heart-01.png.webp" alt="heart"></a>
+                </div>
+                <div class="product__box" id="women">
+                    <div class="productImg">
+                        <img src="./img/product-05.jpg.webp" alt="" class="product__box-image">
+                    </div>
+                    <p class="product__box-title">Esprit Ruffle Shirt</p>
+                    <p class="product__box-price">$16.64</p>
+                    <a href="" class="product__box-icon"><img src="./img/icon-heart-01.png.webp" alt="heart"></a>
+                </div>
+                <div class="product__box" id="watches">
+                    <div class="productImg">
+                        <img src="./img/product-06.jpg.webp" alt="" class="product__box-image">
+                    </div>
+                    <p class="product__box-title">Esprit Ruffle Shirt</p>
+                    <p class="product__box-price">$16.64</p>
+                    <a href="" class="product__box-icon"><img src="./img/icon-heart-01.png.webp" alt="heart"></a>
+                </div>
+                <div class="product__box" id="women">
+                    <div class="productImg">
+                        <img src="./img/product-07.jpg.webp" alt="" class="product__box-image">
+                    </div>
+                    <p class="product__box-title">Esprit Ruffle Shirt</p>
+                    <p class="product__box-price">$16.64</p>
+                    <a href="" class="product__box-icon"><img src="./img/icon-heart-01.png.webp" alt="heart"></a>
+                </div>
+                <div class="product__box" id="women">
+                    <div class="productImg">
+                        <img src="./img/product-08.jpg.webp" alt="" class="product__box-image">
+                    </div>
+                    <p class="product__box-title">Esprit Ruffle Shirt</p>
+                    <p class="product__box-price">$16.64</p>
+                    <a href="" class="product__box-icon"><img src="./img/icon-heart-01.png.webp" alt="heart"></a>
+                </div>
+                <div class="product__box" id="shoes">
+                    <div class="productImg">
+                        <img src="./img/product-09.jpg.webp" alt="" class="product__box-image">
+                    </div>
+                    <p class="product__box-title">Esprit Ruffle Shirt</p>
+                    <p class="product__box-price">$16.64</p>
+                    <a href="" class="product__box-icon"><img src="./img/icon-heart-01.png.webp" alt="heart"></a>
+                </div>
+                <div class="product__box" id="women">
+                    <div class="productImg">
+                        <img src="./img/product-10.jpg.webp" alt="" class="product__box-image">
+                    </div>
+                    <p class="product__box-title">Esprit Ruffle Shirt</p>
+                    <p class="product__box-price">$16.64</p>
+                    <a href="" class="product__box-icon"><img src="./img/icon-heart-01.png.webp" alt="heart"></a>
+                </div>
+                <div class="product__box" id="men">
+                    <div class="productImg">
+                        <img src="./img/product-11.jpg.webp" alt="" class="product__box-image">
+                    </div>
+                    <p class="product__box-title">Esprit Ruffle Shirt</p>
+                    <p class="product__box-price">$16.64</p>
+                    <a href="" class="product__box-icon"><img src="./img/icon-heart-01.png.webp" alt="heart"></a>
+                </div>
+                <div class="product__box" id="men">
+                    <div class="productImg">
+                        <img src="./img/product-12.jpg.webp" alt="" class="product__box-image">
+                    </div>
+                    <p class="product__box-title">Esprit Ruffle Shirt</p>
+                    <p class="product__box-price">$16.64</p>
+                    <a href="" class="product__box-icon"><img src="./img/icon-heart-01.png.webp" alt="heart"></a>
+                </div>
+                <div class="product__box" id="women">
+                    <div class="productImg">
+                        <img src="./img/product-13.jpg.webp" alt="" class="product__box-image">
+                    </div>
+                    <p class="product__box-title">Esprit Ruffle Shirt</p>
+                    <p class="product__box-price">$16.64</p>
+                    <a href="" class="product__box-icon"><img src="./img/icon-heart-01.png.webp" alt="heart"></a>
+                </div>
+                <div class="product__box" id="women">
+                    <div class="productImg">
+                        <img src="./img/product-14.jpg.webp" alt="" class="product__box-image">
+                    </div>
+                    <p class="product__box-title">Esprit Ruffle Shirt</p>
+                    <p class="product__box-price">$16.64</p>
+                    <a href="" class="product__box-icon"><img src="./img/icon-heart-01.png.webp" alt="heart"></a>
+                </div>
+                <div class="product__box" id="watches">
+                    <div class="productImg">
+                        <img src="./img/product-15.jpg.webp" alt="" class="product__box-image">
+                    </div>
+                    <p class="product__box-title">Esprit Ruffle Shirt</p>
+                    <p class="product__box-price">$16.64</p>
+                    <a href="" class="product__box-icon"><img src="./img/icon-heart-01.png.webp" alt="heart"></a>
+                </div>
+                <div class="product__box" id="women">
+                    <div class="productImg">
+                        <img src="./img/product-16.jpg.webp" alt="" class="product__box-image">
+                    </div>
+                    <p class="product__box-title">Esprit Ruffle Shirt</p>
+                    <p class="product__box-price">$16.64</p>
+                    <a href="" class="product__box-icon"><img src="./img/icon-heart-01.png.webp" alt="heart"></a>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <!-- <div class="pop">
+        <div class="pop__slider">
+            <div class="pop__slider-image">
+                <img src="./img/product-detail-01.jpg.webp" alt="">
+            </div>
+            <div class="pop__slider-image">
+                <img src="./img/product-detail-02.jpg.webp" alt="">
+            </div>
+            <div class="pop__slider-image">
+                <img src="./img/product-detail-03.jpg.webp" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="pop__overlay"></div> -->
+
+
+    <footer>
+        <div class="footers">
+            <div class="footers__list">
+                <h1 class="footers__list-title">CATEGORIES</h1>
+                <ul class="footers__list-text">
+                    <li class="footer__categories"><a href="#" class="footer__link">Women</a></li>
+                    <li class="footer__categories"><a href="#" class="footer__link">Men</a></li>
+                    <li class="footer__categories"><a href="#" class="footer__link">Shoes</a></li>
+                    <li class="footer__categories"><a href="#" class="footer__link">Watches</a></li>
+                </ul>
+            </div>
+            <div class="footers__list">
+                <h1 class="footers__list-title">HELP</h1>
+                <ul class="footers__list-text">
+                    <li class="footer__categories"><a href="#" class="footer__link">Track Order</a></li>
+                    <li class="footer__categories"><a href="#" class="footer__link">Returns</a></li>
+                    <li class="footer__categories"><a href="#" class="footer__link">Shipping</a></li>
+                    <li class="footer__categories"><a href="#" class="footer__link">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footers__list">
+                <h1 class="footers__list-title">HGET IN TOUCH</h1>
+                <p class="footers__list-info">Any questions? Let us know in store at 8th floor, 379 Hudson St, New
+                    York, NY 10018 or call us on (+1) 96 716 6879</p>
+                <div class="footers__list-icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </div>
+            </div>
+            <div class="footers__list">
+                <h1 class="footers__list-title">NEWSLETTER</h1>
+                <input type="email" placeholder="email@example.com">
+                <button class="footers__list-btn">
+                    <p class="footers__list-btnText">SUBSCRIBE</p>
+                </button>
+            </div>
+        </div>
+        <div class="icon__pay">
+            <img src="./img/icon-pay-01.png.webp" alt="">
+            <img src="./img/icon-pay-02.png.webp" alt="">
+            <img src="./img/icon-pay-03.png.webp" alt="">
+            <img src="./img/icon-pay-04.png.webp" alt="">
+            <img src="./img/icon-pay-05.png.webp" alt="">
+        </div>
+    </footer>
+    <script>
+        let loader = document.querySelector('.loader')
+        window.addEventListener("load", () => {
+            loader.style.display = 'none'
+        });
+    </script>
+</body>
+
+</html>
