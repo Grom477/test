@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cozastore</title>
     <link rel="stylesheet" href="./css/shop.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/5643fa62d3.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, 
+    maximum-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <style>
+        .slide-in-bottom3 {
+            animation: slide-in-bottom .5s cubic-bezier(.25, .46, .45, .94) both
+        }
 
+        @keyframes slide-in-bottom3 {
+            0% {
+                transform: translateY(50px);
+                opacity: 0
+            }
 
+            100% {
+                transform: translateY(0);
+                opacity: 1
+            }
+        }
+    </style>
+    <script defer src="./script.js"></script>
 </head>
+
 <body>
     <div class="loader">
         <img src="./loading/Infinity-1.3s-200px (1).svg" alt="" srcset="">
@@ -23,19 +43,23 @@
             <div class="logo">
                 <a href="#"><img src="./img/logo-01.png.webp" alt="logo"></a>
             </div>
-            <nav class="nav">
-                <ul class="nav__lists">
-                    <li class="nav__lists-info"><a href="#" class="nav__lists-info" id="nav__lists-info">Home</a></li>
-                    <li class="nav__lists-info"><a href="./shop.html" class="nav__lists-info">Shop</a></li>
-                    <li class="nav__lists-info"><a href="./about.html" class="nav__lists-info">About</a></li>
-                    <li class="nav__lists-info"><a href="./contact.html" class="nav__lists-info">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header__icons">
-                <a class="header__icons-info"><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a class="header__icons-info"><i class="fa-solid fa-cart-shopping"></i></a>
-                <a class="header__icons-info"><i class="fa-regular fa-heart"></i></a>
+            <div class="header__items">
+                <nav class="nav">
+                    <ul class="nav__lists">
+                        <li class="nav__lists-info"><a href="./home.html" class="nav__lists-info">Home</a></li>
+                        <li class="nav__lists-info"><a href="" class="nav__lists-info" id="nav__lists-info">Shop</a>
+                        </li>
+                        <li class="nav__lists-info"><a href="./about.html" class="nav__lists-info">About</a></li>
+                        <li class="nav__lists-info"><a href="./contact.html" class="nav__lists-info">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header__icons">
+                    <a class="header__icons-info"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a class="header__icons-info"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a class="header__icons-info"><i class="fa-regular fa-heart"></i></a>
+                </div>
             </div>
+
         </div>
 
     </header>
@@ -50,56 +74,89 @@
         </div>
         <div class="search__overlay"></div>
     </div>
-
+    <div class="pop hidden">
+        <div class="pop__swiper">
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="parallax-bg" style="
+                    background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg);"
+                            data-swiper-parallax="-23%"></div>
+                        <div class="title" data-swiper-parallax="-300">Man Collection</div>
+                        <div class="subtitle" data-swiper-parallax="-200">Spring 2018</div>
+                        <div class="text" data-swiper-parallax="-100">
+                            <p>
+                                Mauris non lacinia magna. Sed nec lobortis dolor. Vestibulum rhoncus dignissim risus, sed consectetur erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam maximus mauris sit amet odio convallis, in pharetra magna gravida. Praesent sed nunc fermentum mi molestie tempor. Morbi vitae viverra odio. Pellentesque ac velit egestas, luctus arcu non, laoreet mauris. Sed in ipsum tempor, consequat odio in, porttitor ante. Ut mauris ligula, volutpat in sodales in, porta non odio. Pellentesque tempor urna vitae mi vestibulum, nec venenatis nulla lobortis. Proin at gravida ante. Mauris auctor purus at lacus maximus euismod. Pellentesque vulputate massa ut nisl hendrerit, eget elementum libero iaculis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="parallax-bg" style="
+                  background-image: url(https://preview.colorlib.com/theme/cozastore/images/product-05.jpg);
+                " data-swiper-parallax="-23%"></div>
+                        <div class="title" data-swiper-parallax="-300">New Season</div>
+                        <div class="subtitle" data-swiper-parallax="-200">New Trend</div>
+                        <div class="text" data-swiper-parallax="-100">
+                            <p>
+                                Mauris non lacinia magna. Sed nec lobortis dolor. Vestibulum rhoncus dignissim risus, sed consectetur erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam maximus mauris sit amet odio convallis, in pharetra magna gravida. Praesent sed nunc fermentum mi molestie tempor. Morbi vitae viverra odio. Pellentesque ac velit egestas, luctus arcu non, laoreet mauris. Sed in ipsum tempor, consequat odio in, porttitor ante. Ut mauris ligula, volutpat in sodales in, porta non odio. Pellentesque tempor urna vitae mi vestibulum, nec venenatis nulla lobortis. Proin at gravida ante. Mauris auctor purus at lacus maximus euismod. Pellentesque vulputate massa ut nisl hendrerit, eget elementum libero iaculis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="parallax-bg" style="
+                  background-image: url(https://preview.colorlib.com/theme/cozastore/images/banner-02.jpg.webp);
+                " data-swiper-parallax="-23%"></div>
+                        <div class="title" data-swiper-parallax="-300">Accessories</div>
+                        <div class="subtitle" data-swiper-parallax="-200">New arrivals</div>
+                        <div class="text" data-swiper-parallax="-100">
+                            <p>
+                                Mauris non lacinia magna. Sed nec lobortis dolor. Vestibulum rhoncus dignissim risus, sed consectetur erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam maximus mauris sit amet odio convallis, in pharetra magna gravida. Praesent sed nunc fermentum mi molestie tempor. Morbi vitae viverra odio. Pellentesque ac velit egestas, luctus arcu non, laoreet mauris. Sed in ipsum tempor, consequat odio in, porttitor ante. Ut mauris ligula, volutpat in sodales in, porta non odio. Pellentesque tempor urna vitae mi vestibulum, nec venenatis nulla lobortis. Proin at gravida ante. Mauris auctor purus at lacus maximus euismod. Pellentesque vulputate massa ut nisl hendrerit, eget elementum libero iaculis.
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <div class="pop__overlay hidden"></div>
     <section class="karusel">
+        <h1 class="karusel__title">GALLERY</h1>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="https://preview.colorlib.com/theme/gutim/img/classes/classes-1.jpg.webp" alt="" srcset="">
-              </div>
-              <div class="swiper-slide">
-                <img src="https://preview.colorlib.com/theme/gutim/img/classes/classes-3.jpg.webp" alt="" srcset="">
-              </div>
-              <div class="swiper-slide">
-                <img src="https://preview.colorlib.com/theme/gutim/img/classes/classes-5.jpg.webp" alt="" srcset="">
-              </div>
-              <div class="swiper-slide">
-                <img src="https://preview.colorlib.com/theme/gutim/img/classes/classes-7.jpg.webp" alt="" srcset="">
-              </div>
-              <div class="swiper-slide">
-                <img src="https://preview.colorlib.com/theme/gutim/img/classes/classes-2.jpg.webp" alt="" srcset="">
-              </div>
-              <div class="swiper-slide">
-                <img src="https://preview.colorlib.com/theme/gutim/img/classes/classes-4.jpg.webp" alt="" srcset="">
-              </div>
-              <div class="swiper-slide">
-                <img src="https://preview.colorlib.com/theme/gutim/img/classes/classes-6.jpg.webp" alt="" srcset="">
-              </div>
-              <div class="swiper-slide">
-                <img src="https://preview.colorlib.com/theme/gutim/img/classes/classes-8.jpg.webp" alt="" srcset="">
-              </div>
-              <div class="swiper-slide">
-                <img src="https://preview.colorlib.com/theme/gutim/img/classes/classes-2.jpg.webp" alt="" srcset="">
-              </div>
-              <div class="swiper-slide">
-                <img src="https://preview.colorlib.com/theme/gutim/img/classes/classes-5.jpg.webp" alt="" srcset="">
-              </div>
-              <div class="swiper-slide">
-                <img src="https://preview.colorlib.com/theme/gutim/img/classes/classes-7.jpg.webp" alt="" srcset="">
-              </div>
-              <div class="swiper-slide">
-                <img src="https://preview.colorlib.com/theme/gutim/img/classes/classes-2.jpg.webp" alt="" srcset="">
-              </div>
-              <div class="swiper-slide">
-                <img src="https://preview.colorlib.com/theme/gutim/img/classes/classes-4.jpg.webp" alt="" srcset="">
-              </div>
-              <div class="swiper-slide">
-                <img src="https://preview.colorlib.com/theme/gutim/img/classes/classes-6.jpg.webp" alt="" srcset="">
-              </div>
-              
+                <div class="swiper-slide">
+                    <img src="./img/gallery-01.jpg.webp" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/gallery-02.jpg.webp" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/gallery-03.jpg.webp" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/gallery-04.jpg.webp" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/gallery-05.jpg.webp" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/gallery-06.jpg.webp" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/gallery-07.jpg.webp" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/gallery-08.jpg.webp" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/gallery-09.jpg.webp" alt="" srcset="">
+                </div>
             </div>
             <div class="swiper-pagination"></div>
-          </div>
+        </div>
     </section>
 
     <main>
@@ -345,33 +402,30 @@
             loader.style.display = 'none'
         });
     </script>
-        <script  src="/Html Css/CozaStore/script.js"></script>
+    
 
-        <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-    //   spaceBetween: 30,
-    spaceBetween: 30,
-    // centeredSlides: true,
-    autoplay: {
-      delay: 600,
-      disableOnInteraction: false,
-    },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  </script>
-  <script>
-    let loader1 = document.querySelector('.loader');
-window.addEventListener("load", () => {
-loader1.style.display = 'none'
-});
-</script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            autoplay: {
+                delay: 600,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+    <script>
+        let loader1 = document.querySelector('.loader');
+        window.addEventListener("load", () => {
+            loader1.style.display = 'none'
+        });
+    </script>
 </body>
+
 </html>

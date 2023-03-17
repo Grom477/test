@@ -53,21 +53,23 @@ header {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    .logo {
-      a {
-        img {
-        }
-      }
+    .header__items {
+      align-items: center;
+      width: 1200px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
     }
     .nav {
       &__lists {
         display: flex;
         column-gap: 30px;
         margin: 0 70px;
-
+    
         &-info {
           color: #000;
           font-size: 14px;
+     
         }
         .nav__lists-info {
           color: #000;
@@ -84,7 +86,6 @@ header {
       }
     }
     .header__icons {
-      margin-left: 360px;
       &-info {
         margin-left: 30px;
         i {
@@ -112,7 +113,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 284px 15px 100px 15px;
+    position: relative;
+    top: 40%;
     form {
       z-index: 2000;
       position: relative;
@@ -149,7 +151,7 @@ header {
       z-index: 2000;
       position: absolute;
       right: 15.5%;
-      top: 33%;
+      top: -30%;
       width: 25px;
       height: 25px;
       opacity: 0.6;

@@ -220,8 +220,6 @@ if(nav.id == 'All Products'){
 /////// dataFilter ////////
 
 
-
-
 const pict = document.querySelectorAll(".con");
 const nextBtn = document.querySelector(".fa-caret-right")
 const prevBtn = document.querySelector(".fa-caret-left")
@@ -262,6 +260,7 @@ prevBtn.addEventListener("click", () => {
 
 })
 
+////
 
 window.addEventListener("scroll", () => {
     if (window.scrollY > 90) {
@@ -273,7 +272,7 @@ window.addEventListener("scroll", () => {
     }
 })
 
-
+////
 
 
 const shopBag = document.querySelector(".shopBag")
@@ -327,8 +326,15 @@ searchOverlay.addEventListener("click", () => {
 
 const quickBtn = document.querySelector(".quick__btn")
 const pop = document.querySelector(".pop")
+const popOverlay = document.querySelector(".pop__overlay")
 quickBtn.addEventListener("click", ()=> {
     pop.classList.remove("hidden")
+    popOverlay.classList.remove('hidden')
 })
+popOverlay.addEventListener("click", () => {
+    pop.classList.add("hidden")
+    popOverlay.classList.add("hidden")
+})
+
 ////
 
