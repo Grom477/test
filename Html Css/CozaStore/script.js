@@ -160,12 +160,7 @@ const p2 = document.createElement('p')
 p2.textContent = data.price
 p2.classList.add('product__box-price')
 const a = document.createElement('a')
-// a.href = ''
 a.classList.add('product__box-icon')
-// const icon = document.createElement('i')
-// icon.classList.add('fa-heart')
-// icon.classList.add('fa-regular')
-// a.append(icon)
 const i1 = document.createElement('img')
 i1.addEventListener('click', e=> {
     if(!liked.includes(data)){
